@@ -23,4 +23,15 @@ defaults:
     values:
       layout: "page"
 
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+
+jekyll_admin:
+  homepage: "posts"
+
 baseurl: "/jekyll-admin"
